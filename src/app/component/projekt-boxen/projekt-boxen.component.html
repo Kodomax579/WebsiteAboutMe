@@ -1,0 +1,11 @@
+<div class="project-boxen-wrapper">
+    @if(project != null)
+    {
+        <a [href]=project.Link>
+            <div>
+                <h2>{{project.projectName}}</h2>
+                <p>{{project.beschreibung}}</p>
+            </div>
+        </a>
+    }
+</div>

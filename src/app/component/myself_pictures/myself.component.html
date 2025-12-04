@@ -1,0 +1,8 @@
+<p-carousel [value]="carouselData" [numVisible]="1" [numScroll]="1" [circular]="false" >
+    <ng-template let-product #item>
+        <div class="carousel-item-container">
+            <img [src]=product.image [alt]=product.text class="carousel-img" />
+            <div class="carousel-text">{{ product.text }}</div>
+        </div>
+    </ng-template>
+</p-carousel>

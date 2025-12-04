@@ -1,1 +1,26 @@
-/* You can add global styles to this file, and also import other style files */
+/* Hintergrund links & rechts */
+body {
+  margin: 0;
+  background: #e8ecef;
+  font-family: "Inter", sans-serif;
+}
+
+/* Zentraler Container */
+.page-wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  background: #d3ebe5; // mildes Mint-Grün
+  min-height: 100vh;
+  padding: 50px 80px;
+  box-shadow: 0 0 40px rgba(0,0,0,0.08);
+  border-radius: 20px;
+}
+
+/* Mobil */
+@media (max-width: 900px) {
+  .page-wrapper {
+    margin: 0;
+    border-radius: 0;
+    padding: 20px;
+  }
+}

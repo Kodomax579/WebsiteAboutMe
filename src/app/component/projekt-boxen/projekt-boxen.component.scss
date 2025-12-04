@@ -1,0 +1,35 @@
+.project-boxen-wrapper a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.project-boxen-wrapper div {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 18px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+  border: 1px solid #e5e5e5;
+
+  transition: 0.25s ease;
+  height: 100%;
+}
+
+.project-boxen-wrapper div:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.18);
+}
+
+/* Titel */
+.project-boxen-wrapper h2 {
+  margin: 0 0 10px 0;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+/* Beschreibung */
+.project-boxen-wrapper p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #555;
+}

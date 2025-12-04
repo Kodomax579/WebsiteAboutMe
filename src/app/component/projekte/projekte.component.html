@@ -1,0 +1,9 @@
+<div class="project-wrapper">
+    <h1 class="project-header" id="projekte"><a href="https://github.com/Kodomax579">Projekte</a></h1>
+    <div class="project-box">
+        @for(project of projects;track $index)
+        {
+            <app-projekt-boxen [project]="project"></app-projekt-boxen>
+        }
+    </div>
+</div>

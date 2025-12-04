@@ -1,0 +1,50 @@
+/* Wrapper für gesamten Bereich */
+.project-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+  padding: 20px;
+}
+
+/* Header in der Mitte mit Rahmen & Shadow */
+.project-header {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 40px;
+
+  padding: 14px 40px;
+  border-radius: 40px;
+
+  background: #ffffff;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  border: 1px solid #dcdcdc;
+
+  text-align: center;
+}
+
+.project-header a {
+  text-decoration: none;
+  color: #333;
+  transition: 0.25s;
+}
+
+.project-header a:hover {
+  color: #111;
+}
+
+/* GRID für Projektboxen */
+.project-box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2x2 Grid */
+  gap: 30px;
+  width: 100%;
+  max-width: 900px;
+}
+
+/* Mobile: 1 Spalte */
+@media (max-width: 800px) {
+  .project-box {
+    grid-template-columns: 1fr;
+  }
+}
